@@ -1,1 +1,89 @@
-404: Not Found
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC Hospital</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="https://cdn-icons-png.flaticon.com/512/2966/2966327.png" alt="ABC Hospital Logo">
+            <h1>ABC Hospital</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Your Health, Our Priority</h2>
+            <p>Compassionate care and advanced medical expertise for you and your family.</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdlcNgMV65q2ibxdguRJE69JW8cdf60DqbChMbdZzwBeVHRBg/viewform?usp=sharing&ouid=113615248275261495337" class="btn">Book Appointment</a>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1588776814546-74ef1a8e8b06?auto=format&fit=crop&w=1000&q=80" alt="Hospital">
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-container">
+            <div class="service-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/2966/2966485.png" alt="Emergency">
+                <h3>Emergency Care</h3>
+                <p>24/7 emergency services with expert doctors and advanced equipment.</p>
+            </div>
+            <div class="service-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/2966/2966542.png" alt="Surgery">
+                <h3>Surgery</h3>
+                <p>Modern operation theaters with the latest surgical technologies.</p>
+            </div>
+            <div class="service-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/2966/2966534.png" alt="Diagnostics">
+                <h3>Diagnostics</h3>
+                <p>Comprehensive diagnostic services including MRI, X-ray, and more.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>ABC Hospital is dedicated to providing top-notch healthcare services with compassion, innovation, and excellence. Our medical professionals are committed to ensuring the well-being of every patient.</p>
+    </section>
+
+    <!-- Appointment Form -->
+    <section id="appointment" class="appointment-section">
+        <h2>Book an Appointment</h2>
+        <form class="appointment-form">
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <input type="tel" placeholder="Phone Number" required>
+            <select required>
+                <option value="">Select Department</option>
+                <option value="general">General Medicine</option>
+                <option value="cardiology">Cardiology</option>
+                <option value="orthopedics">Orthopedics</option>
+            </select>
+            <input type="date" required>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 ABC Hospital. All rights reserved.</p>
+    </footer>
+</body>
+</html>
